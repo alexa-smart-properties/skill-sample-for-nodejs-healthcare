@@ -1,0 +1,114 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "<please complete this>",
+          "examplePhrases": [
+            "Alexa ask my hospital I need my medications",
+            "Alexa I fell over",
+            "Alexa check my blood pressure"
+          ],
+          "keywords": [],
+          "name": "My hospital",
+          "description": "<please complete this>",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "<please complete this>",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "<please complete this>",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "nameFreeInteraction": {
+          "availability": [
+            "PREFERRED"
+          ]
+        },
+        "endpoint": {
+          "uri": "<ID of your AWS Lambda instance>"
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "minHeight": 600,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 959,
+                "minWidth": 960,
+                "maxWidth": 1279
+              },
+              {
+                "minHeight": 100,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 599,
+                "minWidth": 960,
+                "maxWidth": 1279
+              },
+              {
+                "minHeight": 960,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 1279,
+                "minWidth": 1920,
+                "maxWidth": 2560
+              },
+              {
+                "minHeight": 1920,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 2560,
+                "minWidth": 960,
+                "maxWidth": 1279
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "<ID of your AWS Lambda instance>"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "<ID of your AWS Lambda instance>"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "<ID of your AWS Lambda instance>"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
